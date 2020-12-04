@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.cajero{
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    border: solid black 3px;
+    text-align: center;
+    background-color: #ECF0F1;
+}
+
+.cajero-form{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.cajero-pantalla{
+    width: 360px;
+    height: 280px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    color: #ffff;
+    padding-top: 20px;
+}
+
+
+.cajero-form-text{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    height: 20px;
+}
+
+.cajero-form-submit{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px 5px 0px;
+    font-size: 30px;
+    border: none;
+    background-color: #ABEBC6;
+}
+.cajero-form-submit:hover{
+    background-color: #82E0AA;
+}
+

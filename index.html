@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero automatico</title>
+    <link rel="stylesheet" href="css/cajero.css">
+    <link rel="stylesheet" href="css/cargar_dinero.css">
+</head>
+<body>
+    <div class="cajero">
+        <h3>Cajero automatico</h3>
+        <div class="cajero-pantalla">
+            <div class="ouput"></div>
+        </div>
+        <div class="cajero-form">
+            <form >
+                <input type="number" class="cajero-form-text" min="0"><br>
+                <input type="submit" value="Retirar" class="cajero-form-submit">
+            </form>
+        </div>
+    </div>
+    <div class="cargar">
+        <div>
+            <form id="cargarDinero" >
+                Billetes de $50: <input type="number" id="50" class="cargar-numeros" min="0"><br>
+                Billetes de $10: <input type="number" id="10" class="cargar-numeros" min="0"><br>
+                Billetes de $5: <input type="number" id="5" class="cargar-numeros" min="0"><br>
+                Billetes de $1: <input type="number" id="1" class="cargar-numeros" min="0"><br>
+                <input type="submit" value="Cargar dinero" class="submit">
+            </form>
+        </div>
+    </div>
+    <script src="javaScript/cajero_automatico.js"></script>
+    <script src="javaScript/cargar_dinero.js"></script>
+</body>
+</html>
